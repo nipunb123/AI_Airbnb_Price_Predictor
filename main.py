@@ -349,8 +349,8 @@ def listing_Scrapper(url, money):
 
 
 
-money_folder = r'C:\Users\nipun_p4ey3oc\OneDrive\Desktop\airbnb\money'
-href_folder = r'C:\Users\nipun_p4ey3oc\OneDrive\Desktop\airbnb\hrefs'
+money_folder = r'YOUR DIRECTORY\money'
+href_folder = r'YOUR DIRECTORY\hrefs'
 
 
 money_list = []
@@ -385,7 +385,7 @@ def process_listing(index, row, money):
 
 
 # Main program
-datafile = r"C:\Users\nipun_p4ey3oc\OneDrive\Desktop\data.xlsx"
+datafile = r"YOUR DIRECTORY\data.xlsx"
 wb = openpyxl.load_workbook(datafile)
 ws = wb.active
 
