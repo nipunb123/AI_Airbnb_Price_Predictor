@@ -9,7 +9,10 @@ The AI-Powered Airbnb Price Predictor project aims to create a predictive model 
 
 ## Getting Started
 
-The repository already includes Airbnb data for a night for two guests on September 20-September 21 2023. If you plan on running this code for your own reasons, remove the CSV file, and the text files holding Href and Money values. Furthermore, remember that running this code can get you flagged by Airbnb for sending too many requests to the website. You will also have to replace the locations.txt file with your own locations which you wish to use (Make sure spelling is correct). Make sure you also have an existing empty, Data.xlsx file. Lastly, replace all the paths in the code with your own.
+The repository already includes Airbnb data for a night for two guests on September 20-September 21 2023. If you plan on running this code for your own reasons, remove the CSV file, and the text files holding Href and Money values(href.txt and money.txt). Furthermore, remember that running this code can get you flagged by Airbnb for sending too many requests to the website. You will also have to replace the locations.txt file with your own locations which you wish to use (Make sure spelling is correct). Make sure you also have an existing empty, data.xlsx file. 
+Lastly, replace all the paths in the code with your own.
+
+Run the Files in order of LinkFinder, main, model, and then test. The finalDATA file is simply the CSV version of data.xlsx. Remember you can change the URL in Linkfinder to alter the dates and number of guests.
 
 ## Requirements
 
