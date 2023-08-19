@@ -347,7 +347,7 @@ def listing_Scrapper(url):
 
     return worksheet_data
 
-url = "https://www.airbnb.com/rooms/588995629916693082?adults=2&check_in=2023-09-20&check_out=2023-09-21&source_impression_id=p3_1692409234_dDJcfqlfVENLNLdg&previous_page_section_name=1000&federated_search_id=b9965f1f-194b-4bad-b0b9-e12a616486da"
+url = "ENTER THE URL YOU WANT TO PREDICT THE PRICE FOR HERE"
 
 
 
