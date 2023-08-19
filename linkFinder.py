@@ -41,6 +41,10 @@ with open('locations.txt', 'r') as file:
         # Process each line here
         Location = line.strip()
         encoded_string = urllib.parse.quote(Location)
+
+        #Change the Check-in date and the Check-out date in the code below for different dates. You can also change the number of adults.
+        #Also change the start_date= to the first of whatever month the check-in and check-out dates are.
+        #The locations are automatically changed/updated
         firsturl = "https://www.airbnb.com/s//homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2023-09-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=1&channel=EXPLORE&source=structured_search_input_header&search_type=search_query&query=" + encoded_string + "&date_picker_type=calendar&checkin=2023-09-20&checkout=2023-09-21&adults=1&cursor="
         hrefList = []
         moneyList = []
