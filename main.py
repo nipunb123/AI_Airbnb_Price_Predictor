@@ -358,16 +358,16 @@ href_list = []
 result_list = []
 
 
-for filename in os.listdir(money_folder):
-    file_path = os.path.join(money_folder, filename)
-    with open(file_path, 'r') as file:
-        money_list.extend([int(line.split('$')[1].replace(',', '').split()[0]) for line in file if line.startswith('$')])
+
+file_path = "YOUR DIRECTORY/money.txt"
+with open(file_path, 'r') as file:
+    money_list.extend([int(line.split('$')[1].replace(',', '').split()[0]) for line in file if line.startswith('$')])
 
 # Read data from href files
-for filename in os.listdir(href_folder):
-    file_path = os.path.join(href_folder, filename)
-    with open(file_path, 'r') as file:
-        href_list.extend([line.strip() for line in file])
+
+file_path = "YOUR DIRECTORY/href.txt"
+with open(file_path, 'r') as file:
+    href_list.extend([line.strip() for line in file])
 
 
 
