@@ -9,7 +9,6 @@ import plotly.graph_objects as go
 import joblib
 import os
 import matplotlib.pyplot as plt
-wandb.init(project="airbnbProject")
 
 
 
@@ -78,7 +77,8 @@ else:
     joblib.dump(xgb_model, model_filename)
 
 
-
+#REMOVE EVERYTHING UNDERNEATH THIS LINE IF YOU DON'T WANT TO GRAPH DATA AND JUST SAVE THE MODEL
+wandb.init(project="airbnbProject")
 # Get feature importances
 feature_importances = xgb_model.feature_importances_
 
